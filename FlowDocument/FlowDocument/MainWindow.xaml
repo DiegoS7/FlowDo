@@ -1,0 +1,19 @@
+﻿<Window x:Class="FlowDocument.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowDocument"
+        mc:Ignorable="d"
+        Title="FlowDocument Demostration" Height="200" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <FlowDocumentScrollViewer IsToolBarVisible="True" Zoom="80" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph FontSize="36">Hola, Mundo!</Paragraph>
+                <Paragraph FontStyle="Italic" TextAlignment="Left" FontSize="14" Foreground="Purple">Bienvenidos a Manzanillo, solo Calor y Programación!</Paragraph>
+                <Paragraph FontStyle="Oblique" TextAlignment="Justify" FontSize="14" Foreground="Gray">Tu no lo sabes te estoy vigilando, desde la distancia me estoy acercando.
+                    Siempre estoy pensando en ti por que tu eres para mi, felices fumando weed por que tu eres mi morenita</Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
